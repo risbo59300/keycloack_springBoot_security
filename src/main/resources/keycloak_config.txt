@@ -1,0 +1,11 @@
+Pour configurer keycloak, 
+
+Aller sur le site https://www.keycloak.org/ et télécharger keycloak
+Ensuite décompressez le ficher télécharger
+Puis ouvrez le fichier et aller dans le dossier "BIN" et ouvrir l'invité de commande CMD.
+Dans la commande CMD, entrer la commande ci-dessous :
+		standalone.bat -Djboss.http.port=8080 permet de demarrer le serveur keycloak sur le port 8080
+Cette commande permet de demarrer keycloak qui est accès à l'addresse ci-dessous :
+		http://localhost:8080
+		
+
